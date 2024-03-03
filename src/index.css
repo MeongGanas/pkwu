@@ -4,9 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Nunito", sans-serif;
-  overflow-x: hidden;
+  background-color: #ca1010;
 }
 
 #home {

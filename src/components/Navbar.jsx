@@ -19,14 +19,14 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed z-[9999] top-0 left-0 w-full py-5 px-10 flex justify-between items-center ${
+      className={`fixed z-[9999] top-0 left-0 w-full py-5 px-5 md:px-10 flex justify-between items-center ${
         isScrolled ? "bg-black" : "bg-transparent"
       }`}
     >
       <a href="#home">
         <img src="/img/logosmktelkom.png" width={38} alt="" />
       </a>
-      <ul className="flex gap-10">
+      <ul className="hidden md:flex gap-10">
         <li>
           <a href="#home" className="text-white">
             Home
