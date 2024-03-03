@@ -1,4 +1,5 @@
 import Layout from "../Layout/layout";
+import Berita from "../components/Berita";
 import Guru from "../components/Guru";
 import Home from "../components/Home";
 import Keunggulan from "../components/Keunggulan";
@@ -34,8 +35,18 @@ export default function Intro() {
         </div>
       </section>
 
-      <section id="guru">
-        <div className="py-20 w-full flex items-center min-h-screen bg-white"></div>
+      <section id="berita">
+        <div className="py-20 w-full flex items-center min-h-screen bg-white">
+          <Berita />
+        </div>
+      </section>
+
+      <section id="join">
+        <div className="py-10 w-full text-center bg-[#EDEDED]">
+          <h1 className="text-2xl sm:text-4xl font-bold text-[#CA1010]">
+            Ayo gabung bersama kami!
+          </h1>
+        </div>
       </section>
     </Layout>
   );
