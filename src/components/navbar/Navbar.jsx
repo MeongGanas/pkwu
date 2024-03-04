@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed z-[9999] top-0 left-0 w-full py-5 px-5 md:px-10 flex justify-between items-center ${
-        isScrolled ? "bg-black" : "bg-transparent"
+        isScrolled ? "navbarscrolled" : "bg-transparent"
       }`}
     >
       <a href="#home">
