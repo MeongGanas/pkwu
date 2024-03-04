@@ -35,7 +35,7 @@ export default function KataAlumni() {
             className={`duration-700 ease-in-out absolute inset-0 transition-transform transform bg-[#CA1010]  ${
               tabIndex === 1
                 ? "block z-30 translate-x-0"
-                : "-translate-x-full z-10 hidden hidden"
+                : "-translate-x-full z-10 hidden"
             }`}
             data-carousel-item
           >
