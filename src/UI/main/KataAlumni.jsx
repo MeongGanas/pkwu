@@ -27,15 +27,15 @@ export default function KataAlumni() {
 
       <div
         id="default-carousel"
-        className="relative w-full"
+        className="relative w-full bg-[#ca1010]"
         data-carousel="slide"
       >
         <div className="relative overflow-hidden h-96">
           <div
-            className={`duration-700 ease-in-out absolute inset-0 transition-transform transform bg-[#CA1010]  ${
+            className={`duration-700 ease-in-out absolute inset-0 transition-transform transform  ${
               tabIndex === 1
-                ? "block z-30 translate-x-0"
-                : "-translate-x-full z-10 hidden"
+                ? "block z-30 scale-100 opacity-100"
+                : "scale-0 opacity-0"
             }`}
             data-carousel-item
           >
@@ -51,10 +51,10 @@ export default function KataAlumni() {
             </div>
           </div>
           <div
-            className={`duration-700 ease-in-out absolute inset-0 transition-transform transform bg-[#CA1010]  ${
+            className={`duration-700 ease-in-out absolute inset-0 transition-transform transform  ${
               tabIndex === 2
-                ? "block z-30 translate-x-0"
-                : "-translate-x-full z-10 hidden"
+                ? "block z-30 scale-100 opacity-100"
+                : "scale-0 opacity-0"
             }`}
             data-carousel-item
           >
@@ -70,10 +70,10 @@ export default function KataAlumni() {
             </div>
           </div>
           <div
-            className={`duration-700 ease-in-out absolute inset-0 transition-transform transform bg-[#CA1010]  ${
+            className={`duration-700 ease-in-out absolute inset-0 transition-transform transform  ${
               tabIndex === 3
-                ? "block z-30 translate-x-0"
-                : "-translate-x-full z-10 hidden"
+                ? "block z-30 scale-100 opacity-100"
+                : "scale-0 opacity-0"
             }`}
             data-carousel-item
           >
