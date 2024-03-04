@@ -27,7 +27,7 @@ export default function KataAlumni() {
 
       <div
         id="default-carousel"
-        className="relative w-full bg-[#ca1010]"
+        className="relative w-full bg-[#ca1010] cursor-grab"
         data-carousel="slide"
       >
         <div className="relative overflow-hidden h-96">
