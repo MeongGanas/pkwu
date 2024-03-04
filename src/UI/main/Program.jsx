@@ -1,4 +1,4 @@
-import CardProgram from "./card/CardProgram";
+import CardProgram from "../../components/card/CardProgram";
 
 export default function Program() {
   return (

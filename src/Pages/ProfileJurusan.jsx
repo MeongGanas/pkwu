@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import LayoutJurusan from "../Layout/layoutJurusan";
-import HomeJurusan from "../components/HomeJurusan";
+import HomeJurusan from "../UI/detailJurusan/HomeJurusan";
 
 export default function ProfileJurusan() {
   const { jurusanId } = useParams();

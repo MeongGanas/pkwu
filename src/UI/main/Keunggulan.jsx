@@ -1,4 +1,4 @@
-import CardKeunggulan from "./card/CardKeunggulan";
+import CardKeunggulan from "../../components/card/CardKeunggulan";
 
 export default function Keunggulan() {
   return (

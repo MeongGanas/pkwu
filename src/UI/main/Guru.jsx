@@ -1,4 +1,4 @@
-import CardGuru from "./card/CardGuru";
+import CardGuru from "../../components/card/CardGuru";
 
 export default function Guru() {
   return (

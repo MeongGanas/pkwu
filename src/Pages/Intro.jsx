@@ -1,10 +1,11 @@
 import Layout from "../Layout/layout";
-import Berita from "../components/Berita";
-import Guru from "../components/Guru";
-import Home from "../components/Home";
-import Keunggulan from "../components/Keunggulan";
-import Program from "../components/Program";
-import Sambutan from "../components/Sambutan";
+import Berita from "../UI/main/Berita";
+import Guru from "../UI/main/Guru";
+import Home from "../UI/main/Home";
+import KataAlumni from "../UI/main/KataAlumni";
+import Keunggulan from "../UI/main/Keunggulan";
+import Program from "../UI/main/Program";
+import Sambutan from "../UI/main/Sambutan";
 
 export default function Intro() {
   return (
@@ -38,6 +39,12 @@ export default function Intro() {
       <section id="guru">
         <div className="py-20 w-full flex items-center min-h-screen">
           <Guru />
+        </div>
+      </section>
+
+      <section id="alumni">
+        <div className="pt-20 w-full bg-white">
+          <KataAlumni />
         </div>
       </section>
 
