@@ -1,4 +1,4 @@
-import CardKeunggulan from "./CardKeunggulan";
+import CardKeunggulan from "./card/CardKeunggulan";
 
 export default function Keunggulan() {
   return (
@@ -31,6 +31,13 @@ export default function Keunggulan() {
         url={"/img/kerjasama.svg"}
         desc={
           "Telah memiliki Kerjasama Industri pada beberapa perusahaan besar seperti : PT Telkom Makassar, icon+, metroteck dan masih banyak lagi"
+        }
+      />
+      <CardKeunggulan
+        title={"Guru yang Up-To-Date dengan Perkembanagan Teknologi"}
+        url={"/img/guru.svg"}
+        desc={
+          "Adanya pelatihan Guru yang menunjang sistem proses belajar-mengajar dan juga sebagai pelatihan SMK-PK"
         }
       />
       <CardKeunggulan

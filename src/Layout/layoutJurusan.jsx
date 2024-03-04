@@ -1,10 +1,10 @@
 import Footer from "../components/Footer";
-import Navbar from "../components/navbar/Navbar";
+import NavbarKejuruan from "../components/navbar/NavbarKejuruan";
 
-export default function Layout({ children }) {
+export default function LayoutJurusan({ children }) {
   return (
     <>
-      <Navbar />
+      <NavbarKejuruan />
 
       <main id="content" className="relative overflow-x-hidden">
         {children}

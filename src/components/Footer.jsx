@@ -1,4 +1,4 @@
-import { Mail, PinDrop, YouTube } from "@mui/icons-material";
+import { PinDrop } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
 export default function Footer() {

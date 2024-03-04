@@ -1,4 +1,4 @@
-import CardBerita from "./CardBerita";
+import CardBerita from "./card/CardBerita";
 
 export default function Berita() {
   return (
