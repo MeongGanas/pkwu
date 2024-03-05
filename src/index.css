@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#gallery::-webkit-scrollbar {
+  width: 0px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -19,6 +23,6 @@ body {
   background-size: cover;
 }
 
-.navbarscrolled{
-  @apply backdrop-blur-md bg-black bg-opacity-35
+.navbarscrolled {
+  @apply backdrop-blur-md bg-black bg-opacity-35;
 }

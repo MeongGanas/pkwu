@@ -3,7 +3,7 @@ import CardBerita from "../../components/card/CardBerita";
 export default function Berita() {
   return (
     <div className="w-full">
-      <h1 className="font-bold text-[#CA1010] text-3xl text-center mb-10">
+      <h1 className="text-[#CA1010] font-extrabold text-3xl text-center mb-10">
         Berita Terbaru
       </h1>
       <div className="flex justify-center">

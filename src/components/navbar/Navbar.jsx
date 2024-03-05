@@ -33,7 +33,7 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#jurusan" className="text-white">
+          <a href="#program" className="text-white">
             Jurusan
           </a>
         </li>

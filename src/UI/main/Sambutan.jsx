@@ -2,7 +2,7 @@ export default function Sambutan() {
   return (
     <div className="flex flex-wrap items-center px-5 md:px-10">
       <div className="w-full md:w-2/3">
-        <h1 className="text-[#B60000] text-2xl font-bold mb-8">
+        <h1 className="text-[#B60000] text-2xl font-extrabold mb-8">
           Kepala Sekolah SMK Telkom Makassar
         </h1>
         <p className="mb-5">

@@ -54,7 +54,7 @@ export default function Intro() {
         </div>
       </section>
 
-      <section id="join">
+      <section id="pendaftaran">
         <div className="py-10 w-full text-center bg-[#EDEDED]">
           <h1 className="text-2xl sm:text-4xl font-bold text-[#CA1010]">
             Ayo gabung bersama kami!

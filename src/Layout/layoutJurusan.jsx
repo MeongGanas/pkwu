@@ -6,7 +6,7 @@ export default function LayoutJurusan({ children }) {
     <>
       <NavbarKejuruan />
 
-      <main id="content" className="relative overflow-x-hidden">
+      <main id="content" className="relative">
         {children}
       </main>
 

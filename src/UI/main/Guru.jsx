@@ -3,7 +3,7 @@ import CardGuru from "../../components/card/CardGuru";
 export default function Guru() {
   return (
     <div className="w-full">
-      <h1 className="text-center text-white text-4xl font-bold mb-24">
+      <h1 className="text-center text-white text-4xl font-extrabold mb-24">
         Guru SMK Telkom
       </h1>
       <div className="flex justify-center flex-wrap gap-5">

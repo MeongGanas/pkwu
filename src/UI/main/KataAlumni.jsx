@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import IsiKataAlumni from "../../components/IsiKataAlumni";
 import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 
@@ -21,13 +21,21 @@ export default function KataAlumni() {
     }
   };
 
+  useEffect(() => {
+    setInterval(() => {
+      handleTabNext();
+    }, 10000);
+  });
+
   return (
     <div className="w-full relative text-center mt-20">
-      <h1 className="text-4xl font-bold text-[#CA1010] mb-5">#Kata Alumni</h1>
+      <h1 className="text-4xl font-extrabold text-[#CA1010] mb-5">
+        #Kata Alumni
+      </h1>
 
       <div
         id="default-carousel"
-        className="relative w-full bg-[#ca1010] cursor-grab"
+        className="relative w-full bg-[#ca1010]"
         data-carousel="slide"
       >
         <div className="relative overflow-hidden h-96">
